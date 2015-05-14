@@ -49,10 +49,19 @@ h1 {
 	font-size: 30pt;
 }
 h3 {
+	padding-bottom: .4em;
 
 }
 p {
-
+	
+}
+.blogdate {
+	font-family: cambria;
+	font-size: 11pt;
+	font-style: italic;
+	text-align: right;
+	padding-right: 15px;
+	padding-bottom: .3em;
 }
 nav {
 	display: flex;
