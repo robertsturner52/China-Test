@@ -1,0 +1,232 @@
+/*browser reset*/
+/* line 2, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+html, body {
+  min-height: 100%;
+  background: #000;
+  font-family: sans-serif;
+  font-weight: 200; }
+
+/* line 4, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+* {
+  margin: 0; }
+
+/* line 5, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+/* line 11, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+header {
+  background: tan;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 70px; }
+
+/* line 18, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.navbar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+  height: 70px;
+  padding: 20px 0 20px 10px; }
+
+/* line 27, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.banner {
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(images/shangri-la_road.jpg);
+  background-size: cover;
+  background-position: 0 70px;
+  background-repeat: no-repeat; }
+
+/* line 39, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.title {
+  width: 290px;
+  -webkit-flex-basis: main-size;
+      -ms-flex-preferred-size: main-size;
+          flex-basis: main-size;
+  padding: 0; }
+
+/* line 44, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.maintitle {
+  width: 700px; }
+
+/* line 47, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+h1 {
+  padding: 20px 0 10px 40px;
+  font-size: 30pt; }
+
+/* line 57, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: none;
+      -ms-flex-wrap: none;
+          flex-wrap: none;
+  width: 750px;
+  margin-right: 0; }
+
+/* line 64, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+ul {
+  padding-left: 750px;
+  overflow: hidden;
+  transition: padding-left 4s ease-in-out 1s; }
+
+/* line 70, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+body:hover ul {
+  padding-left: 0; }
+
+/* line 74, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+li {
+  /*	transition: overflow 4s ease-in-out 1s;*/
+  font-size: 10pt;
+  display: inline-block;
+  background: brown;
+  width: 110px;
+  text-align: center;
+  padding: 0.5em 0;
+  margin: 0 5px 0 5px;
+  border-radius: 5px; }
+
+/* line 86, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+a {
+  color: white;
+  text-decoration: none; }
+
+/* line 90, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 94, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+a:visited {
+  color: white;
+  text-decoration: none; }
+
+/* line 98, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.main {
+  z-index: 1;
+  position: relative;
+  top: 700px;
+  background: tan; }
+
+/* line 104, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.subhead {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0; }
+
+/* line 110, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+button {
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  background: brown;
+  border: 0;
+  border-radius: 15px;
+  outline: none; }
+
+/* line 121, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.imagebox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-left: 20px;
+  margin-top: 20px; }
+
+/* line 128, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.imagebox img {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+
+/* line 134, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+.blogflex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+/* line 139, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+article {
+  -webkit-flex-basis: main-size;
+      -ms-flex-preferred-size: main-size;
+          flex-basis: main-size;
+  margin: auto;
+  width: 400px;
+  height: auto;
+  padding: 20px; }
+
+/* line 149, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+footer {
+  display: block;
+  background: brown;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  height: 3em; }
+
+@media screen and (max-width: 1070px) {
+  /* line 158, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+  .banner {
+    background-position: 0 120px; }
+
+  /* line 161, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+  header, .navbar {
+    height: 120px; }
+
+  /* line 164, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+  nav {
+    padding-top: 20px; }
+ }
+
+@media screen and (max-width: 775px) {
+  /* line 169, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+  li {
+    margin-bottom: 10px; }
+
+  /* line 172, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+  header, .navbar {
+    height: 150px; }
+
+  /* line 175, C:/Users/Bob/Desktop/ChinaSite/style.scss */
+  .banner {
+    background-position: 0 150px; }
+ }
